@@ -42,6 +42,17 @@ h2 {
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000
 }
 
+.block {
+  background-color: rgba(237, 205, 250, 0.386);
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  padding-inline: 50px;
+  border: 2.5px solid rgb(210, 139, 238);   
+  margin: 20px;
+  border-radius: 5px;
+}
+
 button {
   border-radius: 8px;
   border: 1px solid transparent;

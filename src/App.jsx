@@ -20,7 +20,7 @@ function App() {
         return <p onClick={() => handleClick(puppy)} key={puppy.id}>{puppy.name}</p>
       })
     }
-    {featPupId && <div>
+    {featPupId && <div class="block">
           <h2>{featuredPup.name}</h2>
           <ul>
             <li>Age: {featuredPup.age}</li>
